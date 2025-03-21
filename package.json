@@ -1,10 +1,13 @@
 {
+  "homepage":"https://JatinCoder123.github.io/Countdown_Challenge_Game/",
   "name": "refs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
